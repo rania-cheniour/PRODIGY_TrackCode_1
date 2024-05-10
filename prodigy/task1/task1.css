@@ -1,0 +1,36 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    color: #fff;
+  }
+  
+  /* Add this to change the background color on scroll */
+  .navigation.scrolled {
+    background-color: #000;
+  }
